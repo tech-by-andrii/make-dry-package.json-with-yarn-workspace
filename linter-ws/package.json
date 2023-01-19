@@ -1,0 +1,20 @@
+{
+  "name": "linter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:check": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+    "eslint": "^8.32.0",
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.32.1"
+  }
+}
